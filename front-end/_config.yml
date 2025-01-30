@@ -1,0 +1,4 @@
+exclude:
+  - node_modules
+  baseurl: "/GreemindFlor"
+theme: jekyll-theme-primer 
