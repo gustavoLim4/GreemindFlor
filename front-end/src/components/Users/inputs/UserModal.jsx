@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { loginUsuario } from "../../../service/api";
 import "../styles.css";
 
+// eslint-disable-next-line react/prop-types
 const UserModal = ({ abrirCadastrado, fecharCadastrado }) => {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");

@@ -1,5 +1,5 @@
 // src/components/NavBar.js
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./styles.css";
 import imgLogo from "../../img/GREENMIND.png";
 import Cart from "../../img/Cart.png";
